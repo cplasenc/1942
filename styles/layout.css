@@ -1,0 +1,329 @@
+
+/* ----------------------------------------------cuerpo-------------------------------------*/
+
+html{
+background-color: #232323;
+overflow-x: scroll;
+}
+
+
+body{
+background-color:#232323;
+background-color:#FFFFFF;
+width: 1000px;
+padding-left:  20px;
+padding-right: 20px;
+margin-left:   auto;
+margin-right:  auto;
+overflow-x: hidden;
+}
+
+/*address, article, aside, figure, footer, header, section{
+display:block;
+margin:0;
+padding:0;}*/
+
+/* ----------------------------------------------Fondo-------------------------------------*/
+
+.background{
+    height: 3000px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#background1{
+    background: url(../images/fondo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*---------------------------------------------Imagenes-------------------------------------------*/
+
+img.i1 {
+border-radius: 20px 20px 20px 20px;
+height: 305px;
+display:center;
+border: #232323 2px dotted;
+margin: 10px 0px 0px 0px;
+}
+
+img.i2 {
+border-radius: 20px 20px 20px 20px;
+height: 680px;
+width: 414px;
+display:center;
+margin: -50px 0px 20px 10px;
+}
+
+img.i3 {
+border-radius: 20px 20px 20px 20px;
+height: 350px;
+width: 414px;
+display:center;
+border: #232323 2px dotted;
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+margin: 10px 0px 50px 10px;
+}
+
+img.i4 {
+border-radius: 20px 20px 20px 20px;
+height: 305px;
+width: 414px;
+display:center;
+border: #232323 2px dotted;
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+margin: 45px 0px 0px 40px;
+}
+
+img.i5 {
+border-radius: 20px 20px 20px 20px;
+height: 305px;
+width: 80%;
+display:center;
+border: #232323 2px dotted;
+-webkit-transform: scale(1.2);
+transform: scale(1.2);
+margin: 30px 0px 50px 90px;
+}
+
+/* ----------------------------------------------Zona 0----------------------------------------*/
+/* Historia */
+
+.cero{
+font-family: arial ;
+float: right;
+border-bottom-style: dotted;
+}
+
+article.a{
+float: left;
+width: 49%;
+}
+
+article.a p{
+font: 109% sans-serif;
+text-align : justify;
+}
+
+article.a h2{
+font: 220% ka1;
+text-align: center;
+}
+
+article.b{
+padding: 2em;
+margin: 400px 0px -40px 475px;
+width: 300px;
+}
+/* ----------------------------------------------Fin Zona 0-------------------------------------*/
+/* ---------------------------------------------- Zona 1----------------------------------------*/
+/* Gameplay */
+
+.uno{
+font-family: arial ;
+float: right;
+border-bottom-style: dotted;
+}
+
+article.c{
+float: right;
+width: 48%;
+}
+
+article.c h2{
+font: 220% ka1;
+text-align: center;
+}
+
+article.c p{
+font: 109% sans-serif;
+text-align : justify;
+margin: 20px 0px 0px 0px;
+padding: 0.1em;
+}
+
+/*article.c h2{ //¿Duplicado?
+font: 220% ka1;
+text-align: center;
+}*/
+
+article.d{
+  padding: 2em;
+  margin: 20px 0px 0px 0px;
+  width: 450px;
+}
+
+/*article.d h2{ //Eliminado
+font: 200% ka1;
+padding: 0.5em;
+text-align: center;
+}*/
+
+/* ----------------------------------------------Fin Zona 1-------------------------------------*/
+/* ----------------------------------------------Zona 2-------------------------------------*/
+/* Consejos y Trucos */
+
+.dos{
+border-bottom-style: dotted;
+font-family: arial ;
+float: right;
+margin-bottom: 30px;
+}
+
+.dos h2{
+font: 220% ka1;
+text-align: center;
+}
+
+
+article.e{
+float: left;
+width: 48%;
+}
+
+article.e h2{
+font: 220% ka1;
+text-align: center;
+}
+
+article.e p{
+font: 109% sans-serif;
+text-align : justify;
+}
+
+/*article.e h2{
+font: 220% ka1;
+text-align: center;
+}*/
+
+article.f{
+  padding: 2em;
+  margin: -30px 0px 10px 470px;
+  width: 450px;
+}
+
+article.f h2{
+font: 200% sans-serif;
+text-align: center;
+}
+
+/* ----------------------------------------------Fin Zona 2-------------------------------------*/
+/* ---------------------------------------------- Zona 3-------------------------------------*/
+/* Enemigos */
+
+.tres{
+border-bottom-style: dotted;
+font-family: arial ;
+}
+
+.tres h2{
+font: 220% ka1;
+text-align: center;
+}
+
+
+/* ----------------------------------------------Fin Zona 3-------------------------------------*/
+/* ---------------------------------------------- Zona 4-------------------------------------*/
+/* Review y Pros y Contras */
+
+.cuatro{
+border-bottom-style: dotted;
+font-family: arial ;
+float: right;
+}
+
+article.g{
+float: left;
+width: 48%;
+}
+
+article.g p{
+font: 109% sans-serif;
+text-align : justify;
+}
+
+article.g h2{
+font: 220% ka1;
+text-align: center;
+}
+
+article.h{
+float: left;
+width: 49%;
+font-weight: normal;
+}
+
+article.h p{
+font: 109% sans-serif;
+text-align : justify;
+}
+
+article.h h2{
+font: 220% ka1;
+text-align: center;
+}
+
+/* ----------------------------------------------Fin Zona 4-------------------------------------*/
+
+
+/*#container{
+
+padding:0px 10xp;
+display:block
+}
+
+#container .last{
+border: red 5px dotted;
+margin:0;
+}
+
+#container{
+
+display:0;
+width:1000px;
+
+}*/
+
+/* -------------------Fuentes---------------------- */
+
+@font-face {
+  font-family: 'ka1';
+  src:url(../fuentes/ka1.ttf);
+}
+
+/*---------------- Barra -----------------------*/
+
+#barra {
+  font: 110% ka1;
+	height:50px;
+	width: 990px;
+	padding: 5px 5px 5px 5px;
+  text-align: center;
+}
+
+#barra ul li {
+	display:inline;
+	margin: 10px;
+	height: 50px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 1em;
+}
+
+
+/*--------- Footer ----------*/
+
+.copyright{
+margin: 310px -400px 10px 890px;
+}
+.copyright p{
+
+font: 80% sans-serif;
+}
